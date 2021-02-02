@@ -1,0 +1,109 @@
+
+
+* {box-sizing: border-box}
+
+div{
+    width: 600px;
+}
+/* Add padding to containers */
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width: 600px;
+  background-color: lavender;
+  font-display:inherit;
+}
+
+/* Full-width input fields */
+input[type=text], 
+input[type=number],input[type=tel],textarea,select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: cornsilk;
+}
+
+input[type=checkbox]{
+    padding: 15px;
+    display: inline-block;
+    border:none;
+
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: burlywood;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  font-size: larger;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: rgb(203, 203, 243);
+  text-align: center;
+}
+
+h1{
+    text-align: justify;
+}
+
+label{
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+select,option{
+  width:600px;
+  appearance: searchfield;
+  box-sizing: border-box;
+  padding: 1px 2px;
+  height: 40px;
+  margin-right: 40px;
+  
+}
+
+option{
+  background-color: darkgray;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+h1{
+  text-align: justify;
+}
+
+p{
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+div{
+    background-color: honeydew;
+}
+
+h2{
+    color:crimson;
+    background-color: thistle;
+    padding: 15px 20px;
+    text-shadow:crimson;    
+}
+
+h3{
+    color: darkblue;
+}
+
+div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: white;
+}
+
+img{
+    align-content: flex-end;
+    height: 250px;
+    width: 250px;
+
+}
+
+p ,ul{
+    font-size:larger;
+}
